@@ -1,10 +1,17 @@
-
+import React from 'react';
 import './App.css';
 import Header from './component/Header.js';
+import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom'
 
 function App() {
   return (
-    <Header/>
+    <BrowserRouter>
+    <Header />
+    
+    
+    
+    
+    </BrowserRouter>
     // <div className="App">
     //   <header className="App-header">
        
@@ -21,7 +28,19 @@ function App() {
     //     </a>
     //   </header>
     // </div>
+    
   );
 }
+
+const routes = (
+  <BrowserRouter>
+  <div>
+    <Route path ="" component/>
+    <Route path ="" component/>
+    <Route path ="" component/>
+    <Route path ="" component/>
+  </div>
+  </BrowserRouter>
+)
 
 export default App;
