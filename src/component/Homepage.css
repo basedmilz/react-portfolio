@@ -1,0 +1,9 @@
+
+    .image {
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 20%;
+    
+    opacity: 200;
+    }
