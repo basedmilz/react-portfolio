@@ -37,7 +37,7 @@ function Footer() {
                         <h4 className='MEE'>
                             <ul className='list-unstyled'>
                                 <li> Click</li>
-                                <li>To view:</li>
+                                <li>to view:</li>
                                 <a href="https://docs.google.com/document/d/1ZMzTYlWJE5c2IUukwJ2XIRgeamRfXn_GtxwRPjBUIqA/edit?usp=sharing" target="_blank">My Resume<li> </li></a>
 
 
