@@ -1,46 +1,28 @@
 import React from 'react';
 import './App.css';
 import Header from './component/Header.js';
-import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom'
+import HomePage from './component/Homepage';
+import Resume from './component/ResumePage';
+import Projects from './component/Projects';
+import Contact from './component/Contact';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+
 
 function App() {
   return (
-    <BrowserRouter>
-    <Header />
-    
-    
-    
-    
-    </BrowserRouter>
-    // <div className="App">
-    //   <header className="App-header">
-       
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
-    
-  );
+    <Router>
+      <div className='App'>
+        <Header />
+        <Switch>
+        <Route path="/home" exact component = {HomePage} />
+        <Route path="/resume" exact component = {Resume}/>
+        <Route path="/projects" exact component = {Projects} />
+        <Route path="/contact" exact component = {Contact}/>
+        </Switch>
+      </div>
+    </Router>
+  );  
 }
 
-const routes = (
-  <BrowserRouter>
-  <div>
-    <Route path ="" component/>
-    <Route path ="" component/>
-    <Route path ="" component/>
-    <Route path ="" component/>
-  </div>
-  </BrowserRouter>
-)
 
 export default App;

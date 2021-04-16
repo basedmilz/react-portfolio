@@ -1,14 +1,14 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+// import './App.css';
 
 
 function Resume() {
     return (
         <div>
-            dsd 
+           <h1>My Resume</h1>
 
         </div>
     );
 }
 
-export default Resume
+export default Resume; 

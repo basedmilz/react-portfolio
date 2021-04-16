@@ -1,11 +1,11 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+// import './App.css';
 
 
 function Contact() {
     return (
         <div>
-            dsd 
+           <h1>Contact Me</h1>
 
         </div>
     );
